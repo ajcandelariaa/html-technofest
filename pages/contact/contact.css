@@ -5,7 +5,13 @@
 .icon-desc{
     font-family: 'Montserrat', sans-serif;
 }
-h1{
+.header h1{
     color: #FEC310;
     text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
