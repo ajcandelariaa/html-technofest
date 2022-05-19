@@ -45,20 +45,22 @@
     <div class="container pt-5 ">
         <div class="row">
             <div class="col">
-                <button class="button active">TECHNOTALKS</button>
+                <button class="button active" id="btn1" onclick="ttalks()">TECHNOTALKS</button>
             </div>
             <div class="col">
-                <button class="button">TECHNOFEST COMPETITIONS</button>
+                <button class="button" id="btn2" onclick="tcomp()">TECHNOFEST COMPETITIONS</button>
             </div>
         </div>
     </div>
 
     <!-- TECHNOTALKS -->
-    <div class="container py-5 ttalks" id="techtalks">
+    <div class="container py-5 technos d-block" id="techtalks">
         <h3>Technotalks</h3>
         <div class="row mt-4">
             <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
+                <a href="technotalks/1.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid active">
+                </a>
                 <p class="mt-2">
                     <span class="title">TECHNOTALKS 2022</span>
                     <br>
@@ -66,7 +68,9 @@
                 </p>
             </div>
             <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
+                <a href="technotalks/2.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid">
+                </a>
                 <p class="mt-2">
                     <span class="title">TECHNOTALKS 2022</span>
                     <br>
@@ -74,7 +78,9 @@
                 </p>
             </div>
             <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
+                <a href="technotalks/1.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid">
+                </a>
                 <p class="mt-2">
                     <span class="title">TECHNOTALKS 2022</span>
                     <br>
@@ -82,42 +88,9 @@
                 </p>
             </div>
             <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
-                <p class="mt-2">
-                    <span class="title">TECHNOTALKS 2022</span>
-                    <br>
-                    <span class="date">March 9 to March 30</span>
-                </p>
-            </div>
-        </div>
-        
-        <div class="row mt-4">
-            <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
-                <p class="mt-2">
-                    <span class="title">TECHNOTALKS 2022</span>
-                    <br>
-                    <span class="date">March 9 to March 30</span>
-                </p>
-            </div>
-            <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
-                <p class="mt-2">
-                    <span class="title">TECHNOTALKS 2022</span>
-                    <br>
-                    <span class="date">March 9 to March 30</span>
-                </p>
-            </div>
-            <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
-                <p class="mt-2">
-                    <span class="title">TECHNOTALKS 2022</span>
-                    <br>
-                    <span class="date">March 9 to March 30</span>
-                </p>
-            </div>
-            <div class="col">
-                <img src="../../assets/images/techtalks1.png" alt="" class="img-fluid">
+                <a href="technotalks/1.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid">
+                </a>
                 <p class="mt-2">
                     <span class="title">TECHNOTALKS 2022</span>
                     <br>
@@ -127,7 +100,54 @@
         </div>
     </div>
 
+    
+    <div class="container py-5 technos d-none" id="techcomp">
+        <h3>TechnoFest Competitions</h3>
+        <div class="row mt-4">
+            <div class="col">
+                <a href="technotalks/1.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid active">
+                </a>
+                <p class="mt-2">
+                    <span class="title">TechnoFest Competitions 2022</span>
+                    <br>
+                    <span class="date">March 9 to March 30</span>
+                </p>
+            </div>
+            <div class="col">
+                <a href="technotalks/1.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid">
+                </a>
+                <p class="mt-2">
+                    <span class="title">TechnoFest Competitions 2022</span>
+                    <br>
+                    <span class="date">March 9 to March 30</span>
+                </p>
+            </div>
+            <div class="col">
+                <a href="technotalks/1.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid">
+                </a>
+                <p class="mt-2">
+                    <span class="title">TechnoFest Competitions 2022</span>
+                    <br>
+                    <span class="date">March 9 to March 30</span>
+                </p>
+            </div>
+            <div class="col">
+                <a href="technotalks/1.html" target="_blank">
+                    <img src="../../assets/images/techtalks1.png" alt="" class="d-block img-fluid">
+                </a>
+                <p class="mt-2">
+                    <span class="title">TechnoFest Competitions 2022</span>
+                    <br>
+                    <span class="date">March 9 to March 30</span>
+                </p>
+            </div>
+        </div>
+    </div>
 
+    <script src="events.js"></script>
     <script src="../../js/nav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

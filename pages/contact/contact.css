@@ -15,3 +15,31 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
+.left{
+    padding-right: 30px;
+}
+.right{
+    padding-left: 30px;
+}
+
+.right form input{
+    width: 100%;
+}
+.right form input[type=text]{
+    padding: 2px 10px;
+}
+.right form input::placeholder{
+    color: #ADADAD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .87rem;
+}
+.right form textarea{
+    width: 100%;
+}
+.right form button{
+    background-color: #036C44;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 50px;
+    border: none;
+}

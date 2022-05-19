@@ -22,19 +22,28 @@
 .button.active{
     background-color: #FEC310;
 }
-
-.ttalks h3{
+.technos h3{
     font-family: 'Open Sans', sans-serif;
     color: #036C44;
     text-transform: uppercase;
     font-weight: bolder;
 }
-.ttalks .title{
+.technos .title{
     font-family: 'Open Sans', sans-serif;
     color: #036C44;
     text-transform: uppercase;
     font-weight: bolder;
 }
-.ttalks .date{
+.technos .date{
     font-size: .85rem;
 }
+img{
+    transition: 0.3s all;
+}
+img:hover{
+    box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+    -webkit-box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+    -moz-box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+}
+
+/* TECHNOS STYLES */

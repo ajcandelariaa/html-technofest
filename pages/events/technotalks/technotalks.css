@@ -1,0 +1,65 @@
+img{
+    transition: 0.3s all;
+}
+img:hover, img.active{
+    box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+    -webkit-box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+    -moz-box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+}
+.button:hover{
+    cursor: not-allowed;
+}
+.description h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #036C44;
+    font-weight: bold;
+}
+.description p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    font-size: .85rem;
+}
+.date{
+    font-family: 'Open Sans', sans-serif;
+    color: #036C44;
+    font-size: .85rem;
+    margin-top: -10px;
+}
+.sub-description h5{
+    font-family: 'Open Sans', sans-serif;
+    color: #036C44;
+    font-weight: bold;
+}
+
+.missed-event{
+    background-color: #E8E8E8;
+    box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+    -webkit-box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+    -moz-box-shadow: -10px 10px 0px -4px rgba(254,195,16,0.75);
+    border: 1px solid #212121;
+}
+.missed-event a{
+    background: #F1F1F1;
+    border: 1px solid #036C44;
+    color: #036C44;
+    border-radius: 5px;
+    padding: 0px 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.sub-images img{
+    border: 1px solid #212121;
+}
+.btn-link{
+    background: #fff;
+    border: 1px solid #036C44;
+    color: #036C44;
+    border-radius: 5px;
+    padding: 17px 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}

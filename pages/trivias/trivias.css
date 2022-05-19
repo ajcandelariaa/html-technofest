@@ -1,4 +1,3 @@
-
 .header h1{
     color: #FEC310;
     text-transform: uppercase;
@@ -8,4 +7,17 @@
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+}
+
+.trivias .title{
+    font-family: 'Open Sans', sans-serif;
+    color: #036C44;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.trivias .description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .80rem;
+    margin-top: -10px;
+    line-height: 25px;
 }
