@@ -3,7 +3,7 @@
     font-weight: bold;
 }
 .icon-desc{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .header h1{
     color: #FEC310;
@@ -17,6 +17,7 @@
 }
 .left{
     padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
 }
 .right{
     padding-left: 30px;
