@@ -26,6 +26,11 @@ p{
     z-index: 15;
 }
 
+.carousel-inner img{
+    height: 600px;
+    object-fit: cover;
+}
+
 .wrapper{
     display: flex;
     align-items: center;

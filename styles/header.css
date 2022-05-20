@@ -4,3 +4,12 @@ nav .nav-link{
     font-size: 1.1rem;
     margin: 0px 20px;
 }
+
+
+nav .nav-item a:hover{
+    color: #fada79 !important;
+}
+
+nav .nav-item a.active{
+    color: #FEC310 !important;
+}
