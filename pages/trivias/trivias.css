@@ -6,7 +6,7 @@
     text-align: center;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .trivias .title{
@@ -17,7 +17,27 @@
 }
 .trivias .description{
     font-family: 'Open Sans', sans-serif;
-    font-size: .80rem;
-    margin-top: -10px;
+    font-size: .90rem;
     line-height: 25px;
+}
+.date{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .70rem;
+    margin-top: -10px;
+}
+.read-more{
+    background: #fff;
+    border: 1px solid #036C44;
+    color: #036C44;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: 0.4s all;
+}
+.read-more:hover{
+    background: #036C44;
+    color: #F1F1F1;
 }

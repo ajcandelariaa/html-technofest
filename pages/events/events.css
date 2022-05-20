@@ -6,7 +6,7 @@
     text-align: center;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: 1000;
 }
 .button{
     width: 100%;
@@ -18,6 +18,10 @@
     border: none;
     padding: 10px 0px;
     font-weight: bolder;
+    transition: 0.4s all;
+}
+.button:hover{
+    background-color: #fce7a9;
 }
 .button.active{
     background-color: #FEC310;

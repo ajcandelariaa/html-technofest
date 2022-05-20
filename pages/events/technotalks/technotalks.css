@@ -47,6 +47,11 @@ img:hover, img.active{
     margin-top: 5px;
     text-decoration: none;
     display: inline-block;
+    transition: 0.4s all;
+}
+.missed-event a:hover{
+    background: #036C44;
+    color: #F1F1F1;
 }
 .sub-images img{
     border: 1px solid #212121;
@@ -62,4 +67,10 @@ img:hover, img.active{
     display: block;
     width: 100%;
     text-align: center;
+    transition: 0.4s all;
+}
+
+.btn-link:hover{
+    background: #036C44;
+    color: #F1F1F1;
 }

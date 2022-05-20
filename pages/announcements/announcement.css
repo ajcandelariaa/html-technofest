@@ -6,7 +6,7 @@
     text-align: center;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .announcements .title{
@@ -17,7 +17,11 @@
 }
 .announcements .description{
     font-family: 'Open Sans', sans-serif;
-    font-size: .80rem;
-    margin-top: -10px;
+    font-size: .90rem;
     line-height: 25px;
+}
+.date{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .70rem;
+    margin-top: -10px;
 }

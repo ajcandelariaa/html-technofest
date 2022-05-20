@@ -11,8 +11,8 @@ p{
 .header{
     position: absolute;
     top: 25%;
-    left: 30%;
-    width: 40%;
+    left: 40%;
+    width: 25%;
     overflow: hidden;
 }
 .header-text{
@@ -26,8 +26,10 @@ p{
 .header-text h1{
     text-transform: uppercase;
     letter-spacing: 10px;
-    font-size: 5rem;
+    font-size: 4rem;
 }
+
+
 
 .choices{
     height: 80px;
@@ -40,6 +42,7 @@ p{
     height: 80px;
     background-color: #F1F1F1;
     cursor: pointer;
+    transition: 0.4s all;
 }
 .choices .text-bg.active{
     background-color: #036C44;
@@ -57,7 +60,7 @@ p{
 }
 
 .school-details{
-    background-color: #E8E8E8;
+    background-color: #fcf9f9;
 }
 
 .content{
@@ -70,6 +73,10 @@ p{
     object-fit: cover;
     width: 100%;
     height: 100%;
+    transition: 0.4s all;
+}
+.content img:hover{
+    transform: scale(1.2);
 }
 .content .one,
 .content .thr,
@@ -101,24 +108,26 @@ p{
     position: relative;
     margin-top: 100px;
     border-radius: 10px;
+    width: 90%;
+    margin-inline: auto;
 }
 .dev1 .dev-image{
     position: absolute;
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    border: 1px solid black;
     top: -70px;
     left: 10%;
+    background-color: #FEC310;
 }
 .dev2 .dev-image{
     position: absolute;
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    border: 1px solid black;
     top: -70px;
     right: 10%;
+    background-color: #FEC310;
 }
 .dev1 .dev-image-wrapper,
 .dev2 .dev-image-wrapper{
@@ -129,11 +138,17 @@ p{
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 .dev1 .dev-details,
 .dev2 .dev-details{
     width: 80%;
     margin-inline: auto;
     padding: 30px 0px;
+}
+
+.tf-details{
+    line-height: 30px;
+    padding-right: 50px;
+    text-align: justify;
 }
